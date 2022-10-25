@@ -135,7 +135,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgb(255, 255, 255);
 }
 
 .d-bloc .a-btn:hover,
@@ -647,7 +647,7 @@ label,
 .btn {
     font-family: "helvetica";
     font-weight: 400;
-    color: #e3e3e3!important;
+    color: #e3e3e3;
 }
 
 a{
@@ -666,6 +666,10 @@ h6,
 p
 {
     color: #333333;
+}
+
+#form_1 label{
+    color: #000000;
 }
 
 .row .mg-md{
@@ -771,7 +775,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(114, 101, 66, 0.7);
+    background-color: rgba(107, 95, 63, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -789,7 +793,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #b16d4e;
+    background-color: #764a35;
 }
 
 .tc-white {
@@ -797,7 +801,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #a15634;
     color: #FFFFFF!important;
 }
 
