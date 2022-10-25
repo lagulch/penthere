@@ -1436,10 +1436,18 @@ img {
 .thumbnail a>img,
 .thumbnail>img {
     display: block;
-    max-width: 320px;
+    max-width: 100%;
     height: auto;
-    margin: auto;
 }
+
+@media (max-width: 767px){
+    .img-responsive{
+        max-width: 320px;
+        max-height: 320px;
+        margin: auto;
+    }
+}
+
 
 .img-rounded {
     border-radius: 6px

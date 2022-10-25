@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -641,17 +643,33 @@ a[data-lightbox]:hover img {
 
 h1,
 h2,
+label,
+.btn {
+    font-family: "helvetica";
+    font-weight: 400;
+    color: #e3e3e3!important;
+}
+
+a{
+    color: white;
+}
+
+#blanco{
+    color: white;
+    opacity: 1;
+}
+
 h3,
 h4,
 h5,
 h6,
-p,
-label,
-.btn,
-a {
-    font-family: "helvetica";
-    font-weight: 400;
-    color: #575757!important;
+p
+{
+    color: #333333;
+}
+
+.row .mg-md{
+    color: white;
 }
 
 .container {
@@ -677,7 +695,7 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -753,7 +771,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(114, 101, 66, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -771,7 +789,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #b16d4e;
 }
 
 .tc-white {
@@ -1039,4 +1057,24 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+.citation {
+    max-width: 800px;
+    width: 80%;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    margin: auto;
+}
+
+.cit1{
+    font-weight: 600;
+    color: #333333;
+    font-size: 20px;
+}
+
+.cit2{
+    font-weight: 400;
+    color: #484848;
+    font-size: 22px;
 }
