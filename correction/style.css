@@ -668,6 +668,13 @@ p
     color: #333333;
 }
 
+#webito{
+    color: #333333!important;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
 #form_1 label{
     color: #000000;
 }
